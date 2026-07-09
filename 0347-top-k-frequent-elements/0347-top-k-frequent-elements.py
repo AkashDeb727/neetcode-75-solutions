@@ -30,8 +30,8 @@ class Solution:
 
         bucket = [[] for _ in range(len(nums) + 1)]
 
-        for num, value in hashmap.items():
-            bucket[value].append(num)
+        for num, freq in hashmap.items():
+            bucket[freq].append(num)
 
         output = []
 
