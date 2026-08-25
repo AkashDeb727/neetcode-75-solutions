@@ -42,6 +42,7 @@ class Solution:
                 j += 1
 
             i = j + 1 + word_len
+            # i = end
                 
         
         return decoded_string
