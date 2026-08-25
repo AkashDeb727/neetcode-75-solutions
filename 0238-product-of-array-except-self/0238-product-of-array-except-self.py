@@ -21,39 +21,24 @@ class Solution:
 '''
 
 
-# Space Complexity: O(1)
-'''
-class Solution:
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
-        n = len(nums)
-        res = [1] * n
-        suffix_product = 1
 
-        for i in range(1,n):
-            res[i] *= res[i-1] * nums[i-1]
-        
-        for j in range(n - 1, -1, -1):
-            res[j] *= suffix_product
-            suffix_product *= nums[j]
-
-        return res
-'''
-
-#Same but easy to understand
+# best solution
+# O(n)
+# no extra memory space
 
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        n = len(nums)
-        res = [1] * n
+        res = [1] * len(nums)
+
         prefix = 1
-        suffix = 1
-
-        for i in range(n):
+        for i in range(len(nums)):
             res[i] = prefix
             prefix *= nums[i]
-        
-        for j in range(n-1,-1,- 1):
-            res[j] *= suffix
-            suffix *= nums[j]
+
+
+        suffix = 1
+        for i in range(len(nums)-1, -1 , -1):
+            res[i] *= suffix
+            suffix *= nums[i]
 
         return res
