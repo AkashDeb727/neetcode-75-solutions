@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [1317-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/1317-convert-integer-to-the-sum-of-two-no-zero-integers) |
 ## Monotonic Stack
 |  |
 | ------- |
