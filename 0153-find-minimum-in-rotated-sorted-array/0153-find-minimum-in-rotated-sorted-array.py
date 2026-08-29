@@ -29,6 +29,7 @@ class Solution:
         l = 0
         r = len(nums) - 1
 
+        # Continue until l == r, leaving one possible minimum
         while l < r:
             mid = (l + r) // 2
 
