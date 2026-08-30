@@ -1,14 +1,13 @@
 class TimeMap:
 
     def __init__(self):
-        self.map = {}
+        self.map = {} # key → [[value, timestamp], [value, timestamp], ...]
 
     def set(self, key: str, value: str, timestamp: int) -> None:
         # Create a list for the key if it doesn't exist
         if key not in self.map:
             self.map[key] = []
 
-        # Store [value, timestamp] in increasing timestamp order
         self.map[key].append([value, timestamp])
 
     def get(self, key: str, timestamp: int) -> str:
