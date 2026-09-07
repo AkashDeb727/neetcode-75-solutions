@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0146-lru-cache) |
 | [0347-top-k-frequent-elements](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0567-permutation-in-string) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0155-min-stack) |
 | [0981-time-based-key-value-store](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0981-time-based-key-value-store) |
 ## Math
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
@@ -180,4 +183,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0287-find-the-duplicate-number) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
