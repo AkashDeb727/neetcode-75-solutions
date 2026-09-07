@@ -27,21 +27,22 @@ class LRUCache:
     def remove(self, node):
         # Remove the node from its current position
         prev = node.prev
-        next_node = node.next
+        next = node.next
 
-        prev.next = next_node
-        next_node.prev = prev
+        prev.next = next
+        next.prev = prev
 
 
     def insert(self, node):
         # Insert the node before tail as the Most Recently Used (MRU)
-        prev = self.tail.prev
+        prev = self.tail.prev   
+        tail = self.tail
 
         prev.next = node
-        node.prev = prev
+        tail.prev = node
 
-        node.next = self.tail
-        self.tail.prev = node
+        node.prev = prev
+        node.next = tail
 
 
     def get(self, key: int) -> int:
