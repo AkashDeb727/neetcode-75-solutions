@@ -1,3 +1,4 @@
+'''
 class Solution:
 
     def encode(self, strs: List[str]) -> str:
@@ -46,3 +47,42 @@ class Solution:
                 
         
         return decoded_string
+'''
+
+
+# just clear code
+class Solution:
+
+    def encode(self, strs: List[str]) -> str:
+        encoded_str = ""
+
+        for word in strs:
+            # Store the length before each word
+            encoded_str += str(len(word)) + "#" + word
+
+        return encoded_str
+
+
+    def decode(self, s: str) -> List[str]:
+        decoded_str = []
+        i = 0
+
+        while i < len(s):
+            j = i
+
+            # Find the delimiter after the word length
+            while s[j] != "#":
+                j += 1
+
+            word_len = int(s[i:j])
+
+            # Extract the word using its stored length
+            word_start = j + 1
+            word_end = word_start + word_len
+
+            decoded_str.append(s[word_start:word_end])
+
+            # Move to the next encoded word
+            i = word_end
+
+        return decoded_str
