@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0033-search-in-rotated-sorted-array) |
+| [0036-valid-sudoku](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0049-group-anagrams) |
 | [0074-search-a-2d-matrix](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0036-valid-sudoku](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0138-copy-list-with-random-pointer) |
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/AkashDeb727/neetcode-75-solutions/tree/master/0074-search-a-2d-matrix) |
 ## Dynamic Programming
 |  |
